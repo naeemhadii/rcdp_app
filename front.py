@@ -69,7 +69,6 @@ class Front:
         )
         st.sidebar.html(body='<hr>')
         credit = st.sidebar.selectbox(label='Select Credit Officer',options=['','Hafiza Shamim Younas','ZOBIA ABAD','Mr Shahid co','Sarazar Asif','Saddam.Hussain','Nadeem Afzal','Mr.Muhammad Naeem'])
-        product = st.sidebar.selectbox(label='Select Prodect',options=['','CED','BEL','EDF','LSF-12','LSF-15','LSF-18','SME','SME-2'])
         search = st.text_input(label='Search',placeholder='Search by Client ID',label_visibility='collapsed')
         if st.button(label='Search',use_container_width=True):
             ids = int(search)
