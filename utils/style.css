@@ -1,0 +1,36 @@
+:root{
+    --primary-color--:#ff4b4b;
+    --background-color--:#ffffff;
+    --text-color--:#31333f;
+    --secondary-background-color--:#f0f2f6;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.heading{
+    display: grid;
+    text-align: center;
+}
+.heading h1{
+    color: var(--text-color--);
+}
+
+.heading_h1{
+    padding: 25px 0px;
+}
+
+.heading hr{
+    margin:20px 0px ;
+}
