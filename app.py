@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
 import streamlit.components.v1 as components
-import plotly.figure_factory as ff
-style = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css'
+
 files = './data/clients.xls'
 rd = pd.read_excel(files)
 dtf = pd.DataFrame(rd)
